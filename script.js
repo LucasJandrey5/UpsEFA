@@ -20,7 +20,7 @@ function verificacao(id) {
     localStorage.setItem("coins", moeda);
     score.innerHTML = localStorage.getItem("coins");
   } else {
-    alert("Tente novamente");
+    alert("Tente novamente!");
     opcao.style.backgroundColor = "red";
     opcao.style.border = "0";
   }
