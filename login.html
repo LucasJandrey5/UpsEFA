@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+<title>Login</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgba(233, 233, 233, 0.425);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+
+  .red-button {
+    background-color: rgb(53, 98, 176);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Arial"
+  }
+
+  .blue-button {
+    background-color: blue;
+    color: "white";
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  label {
+    display: inline-block;
+    min-width: 130px;
+    text-align: right;
+    margin-right: 10px;
+  }
+</style>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="google.css" />
+
+
+</head>
+  <body background="assets/images/login-bg.png" style="
+  background-image: url('assets/images/login-bg.png');
+  background-size: 100vw;
+  background-position: center;
+">
+  <div class="container">
+  <center>
+  <img src="./assets/images/logo.png" style="height: auto; width: 60vw;">
+  <div>
+  <!-- <b><p><label for="username">Nome do usuário:</label></b> -->
+  </b><input type="text" id="username" name="username" placeholder="Nome de usuário" style="border-radius: 14px; height: 50px; padding: 0 20px; text-align: center; margin-top: 34px; font-size: 20px;"/></p>
+  </div>
+  <div>
+  <!-- <b><label for="pass">Senha: </label></b>
+  <input type="password" id="pass" name="password" required style="border-radius: 14px;" /> -->
+  <br>
+  </br>
+  </div>
+  <!-- <button onclick="window.location.href = 'http://pt.stackoverflow.com'">ENTRAR</button> -->
+  <a href="./index.html" class="red-button">Login</a>
+  <!-- <br><br>
+  OU
+  </br></br> -->
+  <!-- <button class="blue-button" onclick="redirectToGoogleLogin()">Continuar com o Google</button> -->
+  
+  <!-- <div class="google-btn">
+    <div class="google-icon-wrapper">
+      <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+    </div>
+    <p class="btn-text"><b>Sign in with google</b></p>
+  </div>
+
+  <script>
+  function redirectToGoogleLogin() {
+      window.location.href = "https://accounts.google.com/login";
+  }
+  </script>
+  <script src="script.js"></script>
+  <br><br>
+  <a href="https://pbs.twimg.com/media/EWKbz_3WkAwCJMj.jpg">Esqueceu a senha?</a>
+  </br></br> -->
+  </center>
+  </div>
+</body>
+</html>

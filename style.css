@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.buttom-shadow {
+  box-shadow: 4px 2px 5px 0px rgba(224, 224, 224, 0.75);
+}
+.animacao-div {
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  opacity: 0; /* Torna a div invisível inicialmente */
+  animation: fade-in 2s forwards; /* Aplica a animação chamada "fade-in" com duração de 2 segundos */
+}
+@keyframes fade-in {
+  from {
+    opacity: 0; /* Começa com opacidade 0 (invisível) */
+  }
+  to {
+    opacity: 1; /* Termina com opacidade 1 (totalmente visível) */
+  }
+}
+.bounce-in1 {
+  animation: bounce-in 0.3s ease-in;
+}
+.bounce-in2 {
+  animation: bounce-in 0.5s ease-in;
+}
+.bounce-in3 {
+  animation: bounce-in 0.8s ease-in;
+}
+.bounce-in4 {
+  animation: bounce-in 1s ease-in;
+}
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
